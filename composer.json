@@ -1,0 +1,19 @@
+{
+    "name": "kitbs/mailgun-laravel",
+    "description": "",
+    "authors": [{
+        "name": "KitBS",
+        "email": "mail@kitbs.com"
+    }],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "mailgun/mailgun-php": "~1.7.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Kitbs\\Mailgun": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
